@@ -1,0 +1,11 @@
+{
+    "extends": "./tsconfig.json",
+    "exclude": [
+        "**/*.spec.ts",
+        "**/*.test.ts",
+        "**/test/**",
+        "jest-integration-config.js",
+        "jest-unit-config.js",
+        "jest.config.js",
+    ]
+}
